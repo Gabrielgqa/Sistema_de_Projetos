@@ -9,7 +9,11 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "GGQA\\Framework\\": "src"
+            "GGQA\\Framework\\": "src",
+            "App\\": "app"
         }
+    },
+    "scripts": {
+        "server": "php -S localhost:8080 -t public"
     }
 }
