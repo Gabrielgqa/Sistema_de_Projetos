@@ -7,7 +7,7 @@ $container = new Container();
 $container['db'] = function(){
     $dsn = 'mysql:host=localhost;dbname=db_sispro';
     $username = 'root';
-    $password = 'gg96791qa';
+    $password = '';
     $options = [
         \PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
     ];
