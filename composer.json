@@ -1,0 +1,15 @@
+{
+    "name": "gabriel/sistema_de_projetos",
+    "authors": [
+        {
+            "name": "GabrielGQA",
+            "email": "gabrielgqa@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GGQA\\Framework\\": "src"
+        }
+    }
+}
